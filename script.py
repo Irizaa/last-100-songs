@@ -1,6 +1,9 @@
 import spotipy
 import os
 from spotipy.oauth2 import SpotifyOAuth
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Spotify credentials
 CLIENT_ID = os.environ.get("SPOTIFY_CLIENT_ID")
