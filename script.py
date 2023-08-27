@@ -8,7 +8,7 @@ load_dotenv()
 # Spotify credentials
 CLIENT_ID = os.environ.get("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET")
-SCOPE = "user-library-read playlist-modify-public"
+SCOPE = "user-library-read playlist-modify-private playlist-modify-public playlist-read-private"
 REDIRECT_URI = os.environ.get("SPOTIFY_REDIRECT_URI")
 
 
